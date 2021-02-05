@@ -1,0 +1,38 @@
+.baslik{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 50px;
+    color: rgb(73, 56, 29);
+}
+::selection{
+    background-color: rgb(11, 38, 87);
+    color: white;
+}
+.menu{
+  list-style-type: none;  
+ 
+  margin: 0px;
+  padding: 0px;
+  
+}
+.menu li{
+    list-style-type: none;
+    float: left;
+    margin-left: 30px   ;
+   
+   
+}
+.menu li a{
+    display: block;
+    padding: 0px;
+    margin: 10px;
+  text-decoration: none;
+    color: rgb(0, 0, 0);
+    opacity: 60%;
+}
+.menu li a:hover{
+    opacity: 100%;
+}
+.metin{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}

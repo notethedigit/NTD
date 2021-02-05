@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NoteTheDigit</title>
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+
+<script>
+    var sayi =0;
+var id =0;
+
+function a(){
+    
+    id++;
+    sayi++;
+    var madde =document.getElementById("madde").value;
+    var renk =document.getElementById("color").value;
+    var saat =document.getElementById("saat").value;
+    document.getElementById(id).style.color=renk;
+    document.getElementById(id).innerHTML =saat +" " +madde;
+
+    document.getElementById("sayi").innerHTML =sayi +"/15";
+   
+}
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+<body background="tls.jpg"></body>
+<img src="logo.PNG" class="r">
+<h1 id="sayi" class="sayi">0/15</h1>
+<br><br><br>
+<input id="saat" value="" type="time" class="saat"><br><br><input placeholder="Eylem Girin" type="text" class="maddes" id="madde" value="">
+<br><br>
+<big class="yazi">Madde Rengi  </big><input class="renk" id="color" value="" type="color" id="renk">
+<br><br>
+<input class="buton" value="Ekle" type="submit" onclick="a()"> 
+<center><h3 class="madde" id="1"></h3>
+    <h3 class="madde" id="2"></h3>
+      <h3 class="madde" id="3"></h3>
+           <h3 class="madde" id="4"></h3>
+                <h3 class="madde" id="5"></h3>
+<h3 class="madde" id="6"></h3>
+   <h3 class="madde" id="7"></h3>
+       <h3 class="madde" id="8"></h3>
+<h3 class="madde" id="9"></h3>
+<h3 class="madde" id="10"></h3>
+<h3 class="madde" id="11"></h3>
+<h3 class="madde" id="12"></h3>
+
+<h3 class="madde" id="13"></h3>
+<h3 class="madde" id="14"></h3>
+<h3 class="madde" id="15"></h3></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

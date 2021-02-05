@@ -1,0 +1,56 @@
+
+.madde{
+    width: 340px;
+}
+.buton{
+    width: 100px;
+    height: 25px;
+    font-family: 'Roboto Slab', serif;
+    background-color: rgb(197, 212, 217);
+    color: rgb(43, 162, 199);
+    border-radius: 5px;
+    border: black;
+
+}
+.buton:hover{
+    background-color: rgb(31, 64, 77);
+color: white;
+}
+.madde{
+    font-family: 'Sriracha', cursive;
+}
+
+.sayi{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(46, 80, 143);
+
+}
+.maddes{
+    opacity: 60%;
+    border: maroon  ;
+    color: black;
+    border-radius: 5px;
+}
+.yazi{
+    color: rgb(46, 80, 143);
+}
+.saat{
+    opacity: 70%;
+    border-radius: 5px;
+    border: black;
+}
+::selection{
+    background-color: rgb(65, 101, 102);
+    color: white;
+}
+.renk{
+    border: black;
+    border-radius: 5px;
+    opacity: 100%;
+}
+.r{
+    float: right;
+    width: 340px;
+    border-radius: 5px;
+    border: black;
+}
